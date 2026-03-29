@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2432917025233304704
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3760493994009487516}
+  - component: {fileID: 3367801302146994139}
+  - component: {fileID: 3161328516696698470}
+  m_Layer: 0
+  m_Name: GameLoop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3760493994009487516
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2432917025233304704}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.0809, y: 1.50665, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3367801302146994139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2432917025233304704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b2c62ac3bcd44fb9e09835581422057, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: VContainer::VContainer.Unity.LifetimeScope
+  parentReference:
+    TypeName: Laughter.Poker.Installer.RootInstaller
+  autoRun: 1
+  autoInjectGameObjects:
+  - {fileID: 2432917025233304704}
+--- !u!114 &3161328516696698470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2432917025233304704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13c45a9d05a04564813a255e4f1bb3f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Laughter.Poker::Laughter.Poker.Presenter.Game.GameLoopPresenter
+  _selfInstaller: {fileID: 6208706994371718017, guid: 57cd5915f83364178b4cc047b6527a84, type: 3}
+  _opponentInstaller: {fileID: 1329840412014759815, guid: 904360d02d02a47c88e078073b1e2f59, type: 3}
+  _gameFacadePrefab: {fileID: 297166220638997902, guid: aa40993d79bc74afea6eb56dd8643495, type: 3}
+  _customCanvasPrefab: {fileID: 6889900771213298729, guid: c84c80dfb7a4f470394caa14b52aa3f6, type: 3}
+  _finishCanvasPrefab: {fileID: 2567196121116925501, guid: ebcf55c4298b24ed29f057327b9b5856, type: 3}

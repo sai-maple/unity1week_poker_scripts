@@ -1,0 +1,25 @@
+{
+    "name": "Laughter.Poker",
+    "rootNamespace": "Laughter.Poker",
+    "references": [
+        "GUID:560b04d1a97f54a4e82edc0cbbb69285",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:029c1c1b674aaae47a6841a0b89ad80e",
+        "GUID:dc47925d1a5fa2946bdd37746b2b5d48",
+        "GUID:b0214a6008ed146ff8f122a6a9c2f6cc",
+        "GUID:bd2200185537f40fcabf8b23fdf40c30",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:f06555f75b070af458a003d92f9efb00",
+        "GUID:ace1a962d6cb545a78234415708dae81",
+        "GUID:915fa2052da5844d8bfd14274d69670c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
